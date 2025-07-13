@@ -5,11 +5,17 @@
 `dnsgitbruter` is a simple Python-based subdomain brute-forcing tool that resolves DNS records using a wordlist. It supports both local files and remote wordlist URLs (e.g. from GitHub SecLists).
 
 ---
-## USe virtual env
 
--python3 -m venv venv
--source venv/bin/activate
--pip install -r requirements.txt
+
+# Create a virtual environment
+python3 -m venv venv
+
+# Activate it
+source venv/bin/activate
+
+# Install dependencies
+pip install -r requirements.txt
+
 
 
 ## 📦 Features
