@@ -28,7 +28,7 @@ git clone <your_repo_url>
 cd dnsgitbruter'''
 
 #### Usage
-```bash
+
 python dnsgitbruter.py -d example.com --url https://raw.githubusercontent.com/danielmiessler/SecLists/refs/heads/master/Discovery/DNS/subdomains-top1million-110000.txt
 
 
